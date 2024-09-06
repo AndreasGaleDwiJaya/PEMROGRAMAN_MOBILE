@@ -9,15 +9,15 @@ NIM   : 2241760033
 **Soal 1**
 Modifikasilah kode pada baris 3 di VS Code atau Editor Code favorit Anda berikut ini agar mendapatkan keluaran (output) sesuai yang diminta!
 
-<img src = "gambar2.png">
+<img src = "gambar2.PNG">
 
 output yang diminta :
 
-<img src = "gambar3.png">
+<img src = "gambar3.PNG">
 
 Jawab : 
 
-<img src = "gambar1.png">
+<img src = "gambar1.PNG">
 
 **Soal 2**
 Mengapa sangat penting untuk memahami bahasa pemrograman Dart sebelum kita menggunakan framework Flutter? Jelaskan! 
