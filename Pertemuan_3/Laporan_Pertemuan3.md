@@ -97,3 +97,17 @@ Kode Program :
 
 Output :
 <img src = "tugas_hasil.PNG">
+
+
+**CHALLENGE IPK CALCULATOR**
+
+Kode Program :
+<img src = "calculator1.PNG">
+<img src = "calculator2.PNG">
+<img src = "calculator3.PNG">
+<img src = "calculator4.PNG">
+
+Output :
+<img src = "calculator_hasil1.PNG">
+<img src = "calculator_hasil2.PNG">
+<img src = "calculator_hasil3.PNG">
