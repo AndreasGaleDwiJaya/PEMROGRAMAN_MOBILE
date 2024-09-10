@@ -1,10 +1,10 @@
+**LAPORAN PERTEMUAN 3 - DART BAGIAN 2**
+
 NAMA  : ANDREAS GALE DWI JAYA
 
 KELAS : SIB - 3D
 
 NIM   : 2241760033
-
-**LAPORAN PERTEMUAN 3**
 
 **Praktikum 1: Menerapkan Control Flows ("if/else")**
 
@@ -14,7 +14,9 @@ Langkah 1
 
 Langkah 2 : Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan!
 
-Output :
+Jawab : Akan terjadi eror karena terdapat penulisan kata kunci if dan else yang salah. Seharusnya ditulis dengan huruf kecil semua.
+
+Output Setelah di Perbaiki :
 
 <img src = "hasil_langkah1.PNG">
 
@@ -22,10 +24,10 @@ Penjelasan : Ketika kode Dart dijalankan, variabel `test` yang diinisialisasi de
 
 Langkah 3 : Tambahkan kode program berikut, lalu coba eksekusi (Run) kode Anda.
 
-String test = "true";
-if (test) {
-   print("Kebenaran");
-}
+    String test = "true";
+    if (test) {
+    print("Kebenaran");
+    }
 
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan if/else.
 
@@ -35,9 +37,6 @@ Output :
 
 <img src = "hasil_langkah3.PNG">
 
-Penjelasan :
-
-
 **Praktikum 2: Menerapkan Perulangan "while" dan "do-while"**
 
 Langkah 1 : Ketik atau salin kode program berikut ke dalam fungsi main().
@@ -46,9 +45,9 @@ Langkah 1 : Ketik atau salin kode program berikut ke dalam fungsi main().
 
 Langkah 2 : Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
 
-Penjelasan : 
+Jawab : akan terjadi eror karena ada tipe data yang tidak sesuai yang seharusnya menggunakan tipe data boolean (true/false).
 
-Output :
+Output Setelah Diperbaiki :
 
 <img src = "perulangan_langkah1_hasil.PNG">
 
@@ -60,36 +59,41 @@ Output :
 
 <img src = "perulangan_langkah3_hasil.PNG">
 
-Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan do-while.
-
-Penjelasan :
 
 
 **Praktikum 3: Menerapkan Perulangan "for" dan "break-continue**
 
 Langkah 1 : Ketik atau salin kode program berikut ke dalam fungsi main().
 
-<img src = "langkah.PNG">
+<img src = "perulangan2_langkah1.PNG">
 
 Langkah 2 : Silakan coba eksekusi (Run) kode pada langkah 1 tersebut. Apa yang terjadi? Jelaskan! Lalu perbaiki jika terjadi error.
 
-Output :
+Jawab : Akan terjadi eror karena belum ada variabel counter yang dideklarasikan. Didalam Dart, semua veriabel harus di deklarasian sebelum digunakan.
 
-<img src = "hasil_langkah.PNG">
+Output Setelah diperbaiki :
 
-Penjelasan : 
+<img src = "perulangan2_langkah1_hasil.PNG">
+
 Langkah 3 : Tambahkan kode program berikut di dalam for-loop, lalu coba eksekusi (Run) kode Anda.
 
-If (Index == 21) break;
-Else If (index > 1 || index < 7) continue;
-print(index);
+<img src = "perulangan2_langkah3.PNG">
 
 Apa yang terjadi ? Jika terjadi error, silakan perbaiki namun tetap menggunakan for dan break-continue.
 
-<img src = "langkah.PNG">
+Jawab : Akan terjadi eror karena belum ada variabel counter yang dideklarasikan. Didalam Dart, semua veriabel harus di deklarasian sebelum digunakan.
+
+Output Setelah Diperbaiki :
+
+<img src = "perulangan2_langkah3_hasil.PNG">
+
+**TUGAS**
+
+Buatlah sebuah program yang dapat menampilkan bilangan prima dari angka 0 sampai 201 menggunakan Dart. Ketika bilangan prima ditemukan, maka tampilkan nama lengkap dan NIM Anda.
+
+Jawab : Bilangan prima dari 0 sampai 201 ada 46 bilangan. 
+Kode Program :
+<img src = "Tugas.PNG">
 
 Output :
-
-<img src = "hasil_langkah.PNG">
-
-Penjelasan :
+<img src = "tugas_hasil.PNG">
